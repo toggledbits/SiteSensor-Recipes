@@ -1,3 +1,13 @@
+This is the OpenWeatherMap forecast request. You can set City ID, or replace
+"id=CITY" with "zip=USZIPCode,us" or the lat-long parameters, etc. See the
+OWM documentation for details. You will also need an API key.
+
+This version returns metric units. If you prefer imperial units, please find
+the "OpenWeatherMap-Forecast-Imperial.txt" recipe.
+
+To apply to your SiteSensor, copy-paste the text below in the "Load Recipe"
+field on the "Recipe" tab of your SiteSensor's control panel:
+
 === Ident: OpenWeatherMap-Forecast version 20104.1554 by multiple; Forecast; set city ID and APPID (key) in URL
 === BEGIN SITESENSOR RECIPE ===
 ewogICAgIm5hbWUiOiAiT3BlbldlYXRoZXJNYXAtRm9yZWNhc3QiLAogICAgImF1dGhvciI6ICJt
