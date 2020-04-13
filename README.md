@@ -1,2 +1,5 @@
 # SiteSensor-Recipes
-Recipes for the SiteSensor plugin
+
+Catalog of recipes for the SiteSensor plugin.
+
+Please feel free to add your own recipes via pull request.
